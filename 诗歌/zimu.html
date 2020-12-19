@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background-image: url("./images/诗歌.jpg");
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst {
+            0% {opacity: 0}
+            25% {opacity: 100}
+            50% {opacity: 0}
+            100% {opacity: 0}
+        }
+        @keyframes mysecond {
+            0% {opacity: 0}
+            50% {opacity: 0}
+            75% {opacity: 100}
+            100% {opacity: 0}
+        }
+        p{
+            fontsize: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+
+        }
+        #first{
+            animation: myfirst 10.45s infinite;
+        }
+        #second{
+            animation: mysecond 10.45s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="bgm/bgm.wav" controls="controls" autoplay="autoplay" loop="loop" >
+</audio>
+<p id="first">只叹她 回眸秋水被隐去</p>
+<p id="second">只忆她 点破 去日苦多</p>
+</body>
+</html>
